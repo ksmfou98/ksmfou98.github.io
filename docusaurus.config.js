@@ -14,9 +14,9 @@ module.exports = {
   favicon: "img/favicon.ico",
   themeConfig: {
     navbar: {
-      title: "이도현",
+      title: "도현위키",
       logo: {
-        alt: "이도현 Logo",
+        alt: "도현위키 Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -94,8 +94,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           routeBasePath: "/", // 문서 전용 으로 설정
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/ksmfou98/today-i-learn/edit/master/",
         },
         blog: {
           showReadingTime: true,
