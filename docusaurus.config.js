@@ -1,5 +1,5 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: '/today-i-learn/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'ksmfou98', // Usually your GitHub org/user name.
   projectName: 'today-i-learn', // Usually your repo name.
   themeConfig: {
@@ -56,4 +56,4 @@ module.exports = {
       },
     ],
   ],
-}
+};
