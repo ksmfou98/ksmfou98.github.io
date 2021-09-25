@@ -22,14 +22,16 @@
 
    ![](https://images.velog.io/images/ksmfou98/post/4af7dd9b-464d-401a-b5b5-a6ef25b670d9/image.png)
 
-- Owner : 본인
-- Branch to deploy : 배포할 깃허브 Branch 선택
-- Base directory
-  - repository 안에 client, server 이런 식으로 레포에 프론트,백 둘다 관리하는 경우 우린 React를 배포할 예정이니 client 입력
-  - repository가 프론트 하나로 되어있는 레포일 경우는 아무것도 입력 안 해도 된다.  
-    -> 결론은 배포해야 될 react 프로젝트의 루트 경로를 입력하면 됨
-- Build command : 빌드 명령어 입력 ex) npm run build
-- Publish directory : 빌드가 완료된 후 생성된 폴더 이름 ex) dist or build
+> ✔ Owner : 본인  
+> ✔ Branch to deploy : 배포할 깃허브 Branch 선택  
+> ✔ Base directory : 배포할 프로젝트의 루트 디렉토리
+>
+> > client 를 배포할 경우 client입력, 폴더 자체를 배포할 경우 아무것도 입력 안해도 된다.
+>
+> ✔ Build command : 빌드 명령어 입력 ex) npm run build  
+> ✔ Publish directory : 빌드가 완료된 후 생성된 폴더 이름 ex) dist or build
+
+<br />
 
 5. 아래와 같은 화면에서 2분정도 지나면 배포 완료
 
