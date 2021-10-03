@@ -32,7 +32,7 @@ $ heroku login
 
 ## Heroku에 배포하기
 
-터미널에 다음 명령어를 입력해 준다.
+배포하려는 폴더 경로에서 터미널에 다음 명령어를 입력해 준다.
 
 ```shell
 $ heroku create
