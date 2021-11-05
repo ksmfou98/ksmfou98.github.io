@@ -6,18 +6,18 @@ module.exports = {
   title: '이도현',
   tagline: 'Dinosaurs are cool',
   url: 'https://ksmfou98.github.io',
-  baseUrl: '/today-i-learn/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'ksmfou98', // Usually your GitHub org/user name.
-  projectName: 'today-i-learn', // Usually your repo name.
+  projectName: 'ksmfou98.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '도현위키',
       logo: {
         alt: '도현위키 Logo',
-        src: 'img/logo.svg',
+        src: '/ksmfou98.github.io/img/logo.svg',
       },
       items: [
         // { to: '/blog', label: 'Blog', position: 'left' },
