@@ -17,7 +17,7 @@ module.exports = {
       title: '도현위키',
       logo: {
         alt: '도현위키 Logo',
-        src: '/ksmfou98.github.io/img/logo.svg',
+        src: '/img/logo.svg',
       },
       items: [
         // { to: '/blog', label: 'Blog', position: 'left' },
