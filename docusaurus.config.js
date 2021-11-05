@@ -33,6 +33,12 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    metadatas: [
+      {
+        name: 'google-site-verification',
+        content: 'awHB70BrXtna5akJyDss2-cHM9l9XMjzLV1z23DiMR0',
+      },
+    ],
   },
   presets: [
     [
@@ -52,6 +58,11 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          trailingSlash: false,
         },
       },
     ],

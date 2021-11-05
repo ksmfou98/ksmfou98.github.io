@@ -1,0 +1,3 @@
+$cat static/robots.txt
+User-agent: *
+Allow: /
