@@ -48,7 +48,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           routeBasePath: '/', // 문서 전용 으로 설정
-          editUrl: 'https://github.com/ksmfou98/today-i-learn/edit/master/',
+          editUrl:
+            'https://github.com/ksmfou98/ksmfou98.github.io/edit/master/',
         },
         blog: {
           showReadingTime: true,

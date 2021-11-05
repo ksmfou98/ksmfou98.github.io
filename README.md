@@ -1,1 +1,1 @@
-https://ksmfou98.github.io/today-i-learn/
+https://ksmfou98.github.io
