@@ -5,6 +5,10 @@ React Router v6가 정식으로 릴리즈 되었다. [공식문서](https://reac
 v5문법에 많이 익숙해서 그런지 v6문법과 v5문법이 많이 헷갈린다. ㅎㅎ..
 그럼 어떤점이 바뀌었는지 한번 보자
 
+<br />
+
+<br />
+
 ## Switch가 사라지고, Routes 등장
 
 - `Routes`는 기존 `Switch` 처럼 경로를 순서를 기준으로 선택하는 것이 아닌, 가장 일치하는 라우트를 기반으로 선택하게 된다.
@@ -25,6 +29,10 @@ v5문법에 많이 익숙해서 그런지 v6문법과 v5문법이 많이 헷갈�
   <Route path="/" .....  />
 </Routes>
 ```
+
+<br />
+
+<br />
 
 ## useHistory가 사라지고, useNavigate 등장
 
@@ -53,6 +61,10 @@ navigate(-2);
 navigate(`/user/${user._id}`);
 ```
 
+<br />
+
+<br />
+
 ## useRouteMatch가 사라짐 대신에 상대 경로를 쓸 수 있게 됨
 
 - 상대 경로를 사용할 수 있게되면서 굳이 useRouteMatch를 쓸 필요가 없어짐.
@@ -79,6 +91,10 @@ console.log(match); // { path: '/', url: '/', isExact: true, params: {} }
 <Route path="about" />
 ```
 
+<br />
+
+<br />
+
 ## Route에 children이나 component가 사라지고, 대신에 element 사용
 
 **기존 코드**
@@ -96,6 +112,10 @@ console.log(match); // { path: '/', url: '/', isExact: true, params: {} }
 <Route path="/" exact element={<HomePage />} />
 <Route path="/login" exact element={<LoginPage />} />
 ```
+
+<br />
+
+<br />
 
 ## 기존 Route는 꼭 Switch 안에 없어도 됐지만, v6의 Route는 Routes의 직속 자식이어야 함
 
@@ -117,6 +137,10 @@ console.log(match); // { path: '/', url: '/', isExact: true, params: {} }
 </Routes>
 ```
 
+<br />
+
+<br />
+
 ## Route에 exact Prop 사라짐(exact가 기본으로 되어있음)
 
 **기존 코드**
@@ -130,6 +154,10 @@ console.log(match); // { path: '/', url: '/', isExact: true, params: {} }
 ```jsx
 <Route path="/login" element={<UsersPage />} />
 ```
+
+<br />
+
+<br />
 
 ## 서브 경로가 필요한 경우 path에 \* 사용
 
@@ -145,6 +173,10 @@ console.log(match); // { path: '/', url: '/', isExact: true, params: {} }
 <Route path="/users/:username/*" element={<UsersPage />} />
 ```
 
+<br />
+
+<br />
+
 ## Optional URL 파라미터 사라짐. 필요하면 Route 2개 만들어야 함
 
 **기존 코드**
@@ -159,6 +191,10 @@ console.log(match); // { path: '/', url: '/', isExact: true, params: {} }
 <Route path="/optional/:value?" element={<Optional />} />
 <Route path="/optional" element={<Optional />} />
 ```
+
+<br />
+
+<br />
 
 ## 서브 라우트를 구현하는 또 다른 방법 Outlet
 
@@ -185,6 +221,10 @@ console.log(match); // { path: '/', url: '/', isExact: true, params: {} }
 ```jsx title="UsersPage.js"
 <Outlet />
 ```
+
+<br />
+
+<br />
 
 ## NavLink에 activeStyle, activeClassName 사라짐
 
