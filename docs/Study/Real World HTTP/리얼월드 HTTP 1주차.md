@@ -1,6 +1,5 @@
 # [리얼월드 HTTP] 스터디 1주차
 
-![](https://images.velog.io/images/ksmfou98/post/5613b2ba-eaba-4c1e-bf35-898249eb4c97/%EB%A6%AC%EC%96%BC%EC%9B%94%EB%93%9C%20HTTP.PNG)
 
 <br />
 

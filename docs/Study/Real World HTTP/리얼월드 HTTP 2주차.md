@@ -1,7 +1,5 @@
 # [리얼월드 HTTP] 스터디 2주차
 
-![](https://images.velog.io/images/ksmfou98/post/1ca2b949-fa13-447e-8712-63b1d95567c1/%EB%A6%AC%EC%96%BC%EC%9B%94%EB%93%9C%20HTTP.PNG)
-
 <br />
 
 리얼월드 HTTP 2주차 스터디이다. 이번 스터디 내용은 **Chapter1: HTTP/1.0의 신택스: 기본이 되는 네 가지 요소** 이다.
