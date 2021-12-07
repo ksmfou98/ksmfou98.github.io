@@ -42,3 +42,7 @@ html .menu__link {
 blockquote {
   background-color: rgb(248, 249, 250) !important;
 }
+
+.admonition-heading {
+  display: none !important;
+}

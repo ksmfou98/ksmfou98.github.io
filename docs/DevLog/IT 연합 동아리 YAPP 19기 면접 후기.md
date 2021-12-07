@@ -2,7 +2,6 @@
 <img src="https://blog.kakaocdn.net/dn/yX6XR/btrjP0gbl4h/1pKqqa8Tg9K1mWVrc1rgVK/img.png"  />
 </div>
 
-
 ## 1. Yapp 소개
 
 Yapp 동아리에 대해서 소개하는 글을 보면 다음과 같다.
@@ -20,10 +19,9 @@ Yapp 동아리에 대해서 소개하는 글을 보면 다음과 같다.
 **서류결과 발표**: 2021. 08. 18 (수)  
 **면접**: 2021. 08. 20 (금) ~ 2021. 08. 22 (일)  
 **최종 발표**: 2021. 08. 26 (목)  
-**첫 세션**: 2021. 08. 28 (토)  
+**첫 세션**: 2021. 08. 28 (토)
 
 <br />
-
 
 ## 3. 지원 계기
 
@@ -32,23 +30,20 @@ Yapp 동아리의 모집요강이 적혀있는 페이스북 주소를 공유해�
 
 <br />
 
-
 ## 4. 1차 서류 결과
 
 서류 제출을 할 때 너무 급한 마음에 포트폴리오도 노션으로 대충 1시간 만에 만들어서 제출했었다. 한번 제출하면 더 이상 수정이 안된다고 해서 떨어질까 봐 매우 떨렸었다...  
 서류 결과 발표일 8월 18일 오후 2시쯤에 yapp에서 메일이 왔다.
 
-
 <img src="https://blog.kakaocdn.net/dn/bEvk8d/btrndHLJUSn/mKfxuy7EohyKCVsj7oZSHk/img.png"  />  
  
-<br /> 
+<br />
 
 <br />
 
 **합격!!!!!!!** 정말 너무 좋았다 마침 8월 18일은 내 생일이라서 더 좋았다..!
 
 <br />
-
 
 ## 5. 2차 면접 후기
 
@@ -73,10 +68,9 @@ Yapp 동아리의 모집요강이 적혀있는 페이스북 주소를 공유해�
 
 <br />
 
-
 ## 6. 최종 결과
 
-<img src="https://blog.kakaocdn.net/dn/bH9BOi/btrnfA6pHgD/tuNZdRloR5mXl3LVpyu39k/img.png"  /> 
+<img src="https://blog.kakaocdn.net/dn/bH9BOi/btrnfA6pHgD/tuNZdRloR5mXl3LVpyu39k/img.png"  />
 
 <br />
 
