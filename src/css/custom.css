@@ -35,8 +35,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-html .menu__link {
-  font-weight: 400 !important;
+/* 여기부터 커스텀 */
+
+header {
+  text-align: center;
 }
 
 blockquote {
@@ -46,3 +48,5 @@ blockquote {
 .admonition-heading {
   display: none !important;
 }
+
+/* 여기까지 */
