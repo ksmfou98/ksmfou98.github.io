@@ -4,13 +4,20 @@
         <title>이도현 Blog</title>
         <link>https://ksmfou98.github.io/blog</link>
         <description>이도현 Blog</description>
-        <lastBuildDate>Sat, 17 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[210417]]></title>
-            <link>https://ksmfou98.github.io/blog/210417</link>
-            <guid>210417</guid>
+            <title><![CDATA[IT 연합 동아리 YAPP 19기 면접 후기]]></title>
+            <link>https://ksmfou98.github.io/blog/IT 연합 동아리 YAPP 19기 면접 후기</link>
+            <guid>IT 연합 동아리 YAPP 19기 면접 후기</guid>
+            <pubDate>Thu, 02 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. Yapp 소개]]></description>
+        </item>
+        <item>
+            <title><![CDATA[개발자의 품격 2기 후기 - 1]]></title>
+            <link>https://ksmfou98.github.io/blog/개발자의 품격 2기 후기 - 1</link>
+            <guid>개발자의 품격 2기 후기 - 1</guid>
             <pubDate>Sat, 17 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[1. 개발자의 품격 2기 소개]]></description>
         </item>
