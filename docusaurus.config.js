@@ -71,6 +71,8 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: '모든 게시물', // 블로그 사이드바 title
+          blogSidebarCount: 'ALL', // 블로그 사이드바 노출 갯수
           // routeBasePath: '/blog',
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
