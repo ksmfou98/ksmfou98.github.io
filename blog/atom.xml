@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ksmfou98.github.io/blog</id>
+    <title>이도현 Blog</title>
+    <updated>2021-04-17T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ksmfou98.github.io/blog"/>
+    <subtitle>이도현 Blog</subtitle>
+    <icon>https://ksmfou98.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[210417]]></title>
+        <id>210417</id>
+        <link href="https://ksmfou98.github.io/blog/210417"/>
+        <updated>2021-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 개발자의 품격 2기 소개]]></summary>
+    </entry>
+</feed>

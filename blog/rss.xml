@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>이도현 Blog</title>
+        <link>https://ksmfou98.github.io/blog</link>
+        <description>이도현 Blog</description>
+        <lastBuildDate>Sat, 17 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[210417]]></title>
+            <link>https://ksmfou98.github.io/blog/210417</link>
+            <guid>210417</guid>
+            <pubDate>Sat, 17 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. 개발자의 품격 2기 소개]]></description>
+        </item>
+    </channel>
+</rss>
