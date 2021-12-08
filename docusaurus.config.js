@@ -1,6 +1,13 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const logNavItems = [
+  {
+    label: '2021 Log',
+    to: 'log/2021',
+  },
+];
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: '이도현',
@@ -20,6 +27,16 @@ module.exports = {
         src: '/img/logo.svg',
       },
       items: [
+        {
+          to: '/docs',
+          label: 'Docs',
+          position: 'left',
+        },
+        {
+          to: '/blog',
+          label: 'Logs',
+          position: 'left',
+        },
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/ksmfou98',
@@ -47,14 +64,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          routeBasePath: '/', // 문서 전용 으로 설정
+          // routeBasePath: '/', // 문서 전용 으로 설정
           editUrl:
             'https://github.com/ksmfou98/ksmfou98.github.io/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          // routeBasePath: '/blog',
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
@@ -66,6 +82,18 @@ module.exports = {
           priority: 0.5,
           trailingSlash: false,
         },
+      },
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'blog',
+        path: './blog',
+        routeBasePath: 'blog',
+        editUrl: 'https://github.com/ksmfou98',
       },
     ],
   ],
