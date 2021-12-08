@@ -28,7 +28,7 @@ module.exports = {
       },
       items: [
         {
-          to: '/docs',
+          to: '/',
           label: 'Docs',
           position: 'left',
         },
@@ -64,7 +64,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // routeBasePath: '/', // 문서 전용 으로 설정
+          routeBasePath: '/', // 문서 전용 으로 설정
           editUrl:
             'https://github.com/ksmfou98/ksmfou98.github.io/edit/master/',
         },
