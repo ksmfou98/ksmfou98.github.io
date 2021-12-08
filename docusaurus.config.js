@@ -30,7 +30,8 @@ module.exports = {
     },
 
     prism: {
-      theme: lightCodeTheme,
+      // theme: lightCodeTheme,
+      theme: darkCodeTheme,
       darkTheme: darkCodeTheme,
     },
     metadatas: [

@@ -37,12 +37,16 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 /* 여기부터 커스텀 */
 
+html .menu__link {
+  font-weight: 400 !important;
+}
+
 header {
   text-align: center;
 }
 
-blockquote {
-  background-color: rgb(248, 249, 250) !important;
+html blockquote {
+  background-color: rgb(248, 249, 250, 0.15);
 }
 
 .admonition-heading {
