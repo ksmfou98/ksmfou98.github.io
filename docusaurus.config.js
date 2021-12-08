@@ -29,13 +29,20 @@ module.exports = {
       items: [
         {
           to: '/',
+          exact: true,
           label: 'Docs',
           position: 'left',
         },
         {
-          to: '/blog',
-          label: 'Logs',
+          to: 'blog',
+          label: 'Blog',
           position: 'left',
+        },
+        {
+          to: 'wiki',
+          label: 'Wiki',
+          position: 'left',
+          activeBaseRegex: 'wiki/',
         },
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
@@ -90,9 +97,9 @@ module.exports = {
     [
       '@docusaurus/plugin-content-blog',
       {
-        id: 'blog',
-        path: './blog',
-        routeBasePath: 'blog',
+        id: 'wiki',
+        path: './wiki',
+        routeBasePath: 'wiki',
         editUrl: 'https://github.com/ksmfou98',
       },
     ],
