@@ -36,10 +36,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /* 여기부터 커스텀 */
-
+/* 
 html .menu__link {
   font-weight: 400 !important;
-}
+} */
 
 header {
   text-align: center;
