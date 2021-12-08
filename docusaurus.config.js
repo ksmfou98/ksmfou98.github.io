@@ -38,12 +38,6 @@ module.exports = {
           label: 'Blog',
           position: 'left',
         },
-        {
-          to: 'wiki',
-          label: 'Wiki',
-          position: 'left',
-          activeBaseRegex: 'wiki/',
-        },
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/ksmfou98',
@@ -93,15 +87,15 @@ module.exports = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'wiki',
-        path: './wiki',
-        routeBasePath: 'wiki',
-        editUrl: 'https://github.com/ksmfou98',
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-content-blog',
+  //     {
+  //       id: 'wiki',
+  //       path: './wiki',
+  //       routeBasePath: '/',
+  //       editUrl: 'https://github.com/ksmfou98',
+  //     },
+  //   ],
+  // ],
 };
