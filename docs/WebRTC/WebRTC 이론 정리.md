@@ -74,4 +74,46 @@ P2P 통신을 위해서는 두 기기가 서로 연결되어 있어야 한다. �
 
 WebRTC를 처음 공부하게 될 때 용어 때문에 많이 어렵다고 느껴진다. 그래서 내가 이해하기 힘들었던 용어들을 정리해 보려고 한다.
 
-1.
+### STUN(Session Traversal Utilities for NAT)
+
+- STUN 서버는 각 Client의 NAT 통과 전후의 IP를 기록하여 상대방 Client에 이 정보를 전달해 주며 이를 통해 P2P 연결을 성립시킨다.
+- 클라이언트 자신의 Public Address(IP:PORT)를 알려준다.
+- peer간의 직접 연결을 막는 등의 라우터의 제한을 결정하는 프로토콜 (현재 다른 peer가 접근 가능한지 여부 결정)
+- 클라이언트는 인터넷을 통해 클라이언트의 Public Address와 라우터의 NAT 뒤에 있는 클라이언트가 접근 가능한지에 대한 답변을 STUN서버에 요청한다.
+
+### NAT(Network Address Translation)
+
+- 단말에 공개 IP(Public IP) 주소를 할당하기 위해 사용한다.
+- 라우터는 공개 IP 주소를 갖고 있고 모든 단말들은 라우터에 연결되어 있으며 비공개 IP주소 (Private IP Address)를 갖는다.
+- 요청은 단말의 비공개 주소로부터 라우터의 공개 주소와 유일한 포트를 기반으로 번역한다. 이 덕분에, 각각의 단말이 유일한 공개 IP 없이 인터넷 상에서 검색 가능하다.
+- 몇몇의 라우터들은 Symmetric NAT이라고 불리우는 제한을 위한 NAT을 채용한다. 즉, peer들이 오직 이전에 연결한 적 있는 연결들만 허용한다. 따라서 STUN 서버에 의해 공개 IP 주소를 발견한다고 해도 모두가 연결을 할 수 있다는 것은 아니다. (위의 설명에서 STUN 서버에 다른 peer가 접근 가능한지 여부를 요청하는 이유)
+- 이를 위해 TURN이 필요하다
+
+### TURN
+
+TURN 서버는 STUN 서버를 이용한 연결이 실패하였을 경우 사용된다. 공인 IP로 돌아가는 TURN 서버를 이용하여 각 Client가 보내주는 데이터를 다른 Client로 보내는 작업을 실시하여 P2P 연결을 성립시킨다.
+
+### SDP
+
+각 Peer에서 송수신 되는 멀티미디어 컨텐츠 규격(해상도, 포멧, 코덱, 압축 등)의 표준으로 SDP를 이용하여 서로의 컨텐츠의 정보를 이해할 수 있다. (SDP는 컨텐츠 데이터가 아니라 컨텐츠의 메타데이터 라는 점)
+
+### Signaling
+
+서로 다른 네트워크에 있는 Client들은 서로를 연결하기 위해서 각 Client의 위치와 미디어 포맷 협의가 필요하다. 이러한 프로세스를 Signaling이라고 하며 Signaling을 위해서는 Signailing 서버가 필요하다.
+
+### Signaling 서버
+
+두 Client 사이에서 서로의 Signaling 정보를 전달 할 수 있는 서버가 필요하며 어떠한 통신 방법이든 상관없다. 또한 Signaling에서 사용되는 협의 메세지인 SDP의 내용도 몰라도 된다. 그냥 Signaling 서버는 Client에서 오는 정보를 다른 Client로 전달하는 역할만 수행하면 된다.
+
+### ICE(Interactive Connectivity Establishment)
+
+- 브라우저가 peer를 통한 연결이 가능하도록 해주는 프레임 워크이다.
+- peer간 단순 연결 시 작동하지 않는 이유들
+  - 연결을 시도하는 방화벽을 통과해야 함
+  - 단말에 Public IP가 없다면 유일한 주소값을 할당해야 한다.
+  - 라우터가 peer간의 직접 연결을 허용하지 않을 때 데이터를 릴레이 해야 하는 경우
+- ICE는 위의 작업들을 수행하기 위해 STUN과 TURN 서버 둘 다 혹은 하나의 서버를 사용한다.
+
+### ICE candidate
+
+Signaling을 이용하여 SDP를 결정한 후에 ICE candidate(후보)들을 교환하기 시작한다. ICE candidate는 발신 Client에서 통신을 어떻게 하는지의 방법을 설명하며 통신 방법이 검색되는 순서대로 ICE candidate를 보낸다. 이미 ICE를 정해 미디어 스트리밍을 시작 했더라도 가능한 모든 ICE candidate를 전송하여 최고의 ICE를 결정한다. (이 때문에 초반에 영상의 품질이 낮을 수 있다)
