@@ -41,10 +41,6 @@ html .avatar__photo + .avatar__intro {
   align-items: flex-start;
 }
 
-header {
-  text-align: center;
-}
-
 html blockquote {
   background-color: rgb(248, 249, 250, 0.15);
 }
@@ -52,5 +48,3 @@ html blockquote {
 .admonition-heading {
   display: none !important;
 }
-
-/* 여기까지 */

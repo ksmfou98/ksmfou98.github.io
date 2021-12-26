@@ -4,6 +4,10 @@ html {
   font-family: 'Noto Sans KR', sans-serif;
 } */
 
+html {
+  font-size: 18px;
+}
+
 .docItemContainer article *:first-child,
 .docItemContainer header + * {
   margin-top: 0;
